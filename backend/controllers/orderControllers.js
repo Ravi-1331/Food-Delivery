@@ -9,7 +9,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 //placing user order form frontend
 const placeOrder = async (req, res) => {
 
-    const frontend_url = "http://localhost:3000"
+    const frontend_url = "https://food-delivery-frontend-tkji.onrender.com/"
 
     try {
         const newOrder = new orderModel({
