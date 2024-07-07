@@ -7,7 +7,7 @@ export const StoreContext = createContext(null);
 const StoreContextProvider = (props) => {
 
     const [cartItems, setCartItems] = useState({});
-    const url = "http://localhost:4000";
+    const url = "https://food-delivery-backand.onrender.com";
     const [token, setToken] = useState("");
     const [food_list, setFood_list] = useState([]) //yaha hum log food_list backend se lene ke liye kr rhe  -- assets file se nhi lenge food_list ab
 
